@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_email"
+        android:hint="Email User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:hint="Ingrese un titulo"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:gravity="center_horizontal"
+        android:hint="Ingrese una descripción"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_description"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:text="Enviar"
+            android:id="@+id/btn_send"
+            android:layout_width="120dp"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal"
+            android:text="Subir Imagen"
+            android:onClick="onUpload"
+            android:id="@+id/btn_upload"
+            android:layout_width="120dp"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recycler_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+</androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

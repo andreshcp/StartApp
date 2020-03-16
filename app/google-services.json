@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "84386677488",
+    "firebase_url": "https://talita-app.firebaseio.com",
+    "project_id": "talita-app",
+    "storage_bucket": "talita-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84386677488:android:30c50739b51c614d6db835",
+        "android_client_info": {
+          "package_name": "com.example.talitaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84386677488-l8snld3u58k04u95q1gjimo04rgvmstp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.talitaapp",
+            "certificate_hash": "7861d7bcd7d18bf2d7dc1a44da313e6aea545346"
+          }
+        },
+        {
+          "client_id": "84386677488-9a8qkk4b4a65a3pa5cjak1c06284sfr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAkpr2bcthJQ6ak36KKs4H2XA-INLGD9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84386677488-9a8qkk4b4a65a3pa5cjak1c06284sfr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
